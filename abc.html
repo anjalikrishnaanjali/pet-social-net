@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Icon with Green Background</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Search container with a green background -->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button class="search-btn" onclick="search()">
+            <i class="fa fa-search"></i> <!-- Search Icon -->
+        </button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Font Awesome for icons -->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">🐾 Pet<span>World</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Pet World</h1>
+        <p>Your one-stop destination for pet care and adoption.</p>
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are passionate about providing the best care for your pets. From grooming to adoption, we offer everything your pet needs.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service">
+                <h3>🐶 Pet Grooming</h3>
+                <p>Professional grooming for your furry friends.</p>
+            </div>
+            <div class="service">
+                <h3>🏡 Pet Adoption</h3>
+                <p>Find a loving home for pets in need.</p>
+            </div>
+            <div class="service">
+                <h3>🩺 Veterinary Services</h3>
+                <p>Top-quality medical care for your pets.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Pet World. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

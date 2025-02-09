@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Social Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pet Social Network</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Add Pet</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Our Pet Friends</h2>
+            <div id="pets-container">
+                <!-- Pet profiles will go here -->
+            </div>
+        </section>
+
+        <section id="add-pet-section" style="display: none;">
+            <h2>Add New Pet</h2>
+            <form id="add-pet-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="breed">Breed:</label>
+                <input type="text" id="breed" name="breed" required>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+                <label for="image">Image URL:</label>
+                <input type="text" id="image" name="image" required>
+                <button type="submit">Add Pet</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pet Social Network</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
